@@ -46,4 +46,8 @@ public class ProductService {
         Product existingProduct = getProductById(id);
         productRepository.delete(existingProduct);
     }
+
+    public List<Product> searchProductsByName(String name) {
+        return productRepository.findByNameContainingIgnoreCase(name);
+    }
 }
