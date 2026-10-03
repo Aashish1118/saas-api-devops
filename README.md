@@ -266,4 +266,4 @@ Monitoring and centralized logging
 Kubernetes deployment
 
 Author
-Ramesh Bhandari
+Aashish Pandey
